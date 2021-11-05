@@ -1,0 +1,25 @@
+.sales {
+	padding: 50px 0;
+	
+}
+.sales__body {
+	
+}
+.sales__title {
+	padding: 40px 0 50px;
+
+}
+.title {
+	color: #d2d2d2;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 700;
+}
+.sales__items {
+	
+	display: flex;
+	flex-wrap: wrap;
+}
+.sales__item {
+	padding: 5px;
+}

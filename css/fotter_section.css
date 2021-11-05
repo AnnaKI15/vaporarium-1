@@ -1,0 +1,46 @@
+.fotter {
+	max-height: 50px;
+	background-color: #222 !important;
+}
+.footer__body {
+	max-height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	display: flex;
+}
+.footer__logo-img {
+	max-width: 40px;
+
+}
+.footer__items {
+	display: flex;
+	align-items: center;
+}
+
+
+ 
+.footer__item {
+	padding: 17px 5px 19px 5px;
+	display: flex;
+
+}
+
+.footer__icon{
+
+	align-items: center;
+	width: 14px;
+	
+
+}
+.footer__munber{
+	padding-left: 7px;
+	font-family: "Montserrat - Regular";
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	
+}
+

@@ -1,0 +1,26 @@
+.about {}
+.about__body {
+	display: flex;
+	
+
+}
+.about__title {}
+
+.about__row{
+
+	
+}
+.about__text {
+	padding-top: 30px;
+	color: #d2d2d2;
+	padding-right: 38px;
+	font-family: "Montserrat - Regular";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+}
+.span{
+	color: #fff;
+	font-weight: 700;
+}
+.about__image {}
