@@ -1,4 +1,6 @@
-.about {}
+.about {
+	padding: 50px 0;
+}
 .about__body {
 	display: flex;
 	
@@ -23,4 +25,18 @@
 	color: #fff;
 	font-weight: 700;
 }
-.about__image {}
+.about__image {
+	position: relative;
+}
+
+.about__rectangle{
+	position: absolute;
+    width: 55%;
+    height: 70%;
+    object-fit: cover;
+    z-index: 2;
+    top: 50%;
+    right: -26%;
+
+
+}

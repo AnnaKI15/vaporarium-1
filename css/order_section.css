@@ -1,18 +1,19 @@
 .order-discount{
+	padding-bottom: 50px;
 	position: relative;
 }
 
 .order {
-	padding: 70px 0;
+	padding-top: 70px;
 }
 .bg_order-discount{
 	position: absolute;
 	z-index: -1;
-	top: -25%;
+	top: -30%;
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	opacity: .85;
+	opacity: .8;
 }
 
 .order__body {}
@@ -61,14 +62,53 @@
 
 }
 
-.discount {}
+.discount {
+	position: relative;
+}
 .discount__body {
 	display: flex;
+	
+}
+
+.discount__bg-smoke{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+   	top:-10%;
+    z-index: -2;
+    opacity: .5;
+    
 }
 .discount__img {
+	position: relative;
+	z-index: -3;
+}
+.discount__rectagle__big{
+	position: absolute;
+	object-fit: cover;
+    width: 100%;
+    height: auto;
+    z-index: -4;
+    left: -25%;
+    top: -20%;
+}
+
+.discount__rectagle__small{
+	position: absolute;
+	z-index: 1;
+    left: -14%;
+    bottom: 2%;
+}
+.discount__gift{
 
 }
 .discount__content {
+	position: absolute;
+	width: 66.6%;
+	right: -4%;
+	top: 25%;
+	z-index: 2;	
+
 
 }
 .discount__title {
