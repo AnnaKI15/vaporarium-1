@@ -38,10 +38,12 @@
 
 .reviews__content {
 	display: flex;
+	flex-wrap: wrap;
+	 
 }
 
 .reviews__row{
-	flex-basis: 50%;
+	flex: 0 1 50%;
 }
 
 .column{
@@ -63,4 +65,7 @@
 	margin-top: 45px;
 	display: flex;
 	justify-content: center;
+}
+#reviews__row-js{
+	display: none;
 }

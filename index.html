@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/order_section.css">
 	<link rel="stylesheet" href="css/about_section.css">
 	<link rel="stylesheet" href="css/fotter_section.css">
+	<link rel="stylesheet" href="css/form_section.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -108,9 +109,9 @@
 		<section class="sales">
 			<div class="wreapper__container">
 				<div class="sales__body">
-					<div class="sales__title title">
+					<h1 class="sales__title title">
 						Хиты продаж
-					</div>
+					</h1>
 					<div class="sales__items">
 							<div class="sales__item">
 								<img class="sales__category" src="img/sale/sales-1.png" alt="01">
@@ -139,9 +140,9 @@
 			<img src="img/reviews/bg-reviews.png" alt="" class="bg-reviews">
 			<div class="wreapper__container">
 				<div class="reviews__body">
-					<div class="reviews__title title">
+					<h1 class="reviews__title title">
 						Отзывы о нашем магазине
-					</div>
+					</h1>
 					<div class="reviews__content">
 						<div class="reviews__row">
 							<div class="reviews__column">
@@ -156,21 +157,24 @@
 									Обожаю этот магазин, а парни вообще высший класс)молодцы, знают свое дело, всегда в хорошем настроении и расположение духа))уйти от туда с одной жидкостью? - не, не слышали) немаловажно, можно не только на нюх определить нравится ли тебе жидкость, но и ощутить вкусовыми рецепторами)) авторская линейка ребят "emotions: serenity" вообще oneLove. Мы с мужем очень рады, что нашли вас) Только процветания и ответсвеных клиентов^^)
 							</div>
 						</div>
-						<!-- <div class="reviews__row">
+						<div class="reviews__row">
+						<div class="reviews__row" id="reviews__row-js">
 							<div class="reviews__column">
 									Обожаю этот магазин, а парни вообще высший класс)молодцы, знают свое дело, всегда в хорошем настроении и расположение духа))уйти от туда с одной жидкостью? - не, не слышали) немаловажно, можно не только на нюх определить нравится ли тебе жидкость, но и ощутить вкусовыми рецепторами)) авторская линейка ребят "emotions: serenity" вообще oneLove. Мы с мужем очень рады, что нашли вас) Только процветания и ответсвеных клиентов^^)
 							</div>
 						</div>
-						<div class="reviews__row">
+						<div class="reviews__row"  id="reviews__row-js">
 							<div class="reviews__column">
 								Замечательное место, с высоким уровнем обслуживания и замечательными сотрудниками!!!
 							</div>
-							<div class="column reviews__column">
+							<div class="column reviews__column" id="reviews__row-js">
 								Очень приятный продавец! Приходила с целью ремонта, сделали всё быстро и качественно, объяснили и ответили на все мои вопросы.Цены приятно радуют. Я теперь постоянный клиент! Всё на высшем уровне!
 							</div>
-						</div> -->
+						</div>
 					</div>
-					<button class="button reviews__btn">Все отзывы</button>	
+					<a href="#" id="reviews__btn-js" class="reviews__btn">
+					<button type="button" class="button">Все отзывы</button>
+					</a>	
 				</div>
 			</div>
 			<img src="img/reviews/reviews-rectangle.png" alt="" class="reviews__rectangle">
@@ -181,9 +185,9 @@
 				<div class="wreapper__container">
 
 					<div class="order__body">
-						<div class="order__title title">
+						<h1 class="order__title title">
 							Как сделать заказ?
-						</div>
+						</h1>
 						<div class="order__items">
 							<div class="order__item">
 								<div class="order__step">01</div>
@@ -225,9 +229,9 @@
 							<div class="discount__title title">
 								Сделайте заказ на свой день рожения и получите скидку -10%*
 							</div>
-							<button class="button discount__btn">
-								Сделать заказ
-							</button>
+							<a href="#" rel="#overlay">
+							<button type="button" class="button discount__btn">Сделать заказ</button>
+							</a>
 							<div class="discount__note">
 								*Скидка доступна за день до, в день и на следующий день после для рождения, при условии что клиент, покажет/пришлет нам документ, в котором указана дата его роджения
 							</div>
@@ -237,15 +241,14 @@
 					</div>
 				</div>
 			</div>
-
 		</section>				
 		<section class="about">
 			<div class="wreapper__container">
 				<div class="about__body">
 					<div class="about__row">
-						<div class="about__title title">
+						<h1 class="about__title title">
 							Коротко о нас
-						</div>
+						</h1>
 					
 							<div class="about__text">
 								<p>
@@ -264,8 +267,10 @@
 				</div>
 			</div>
 		</section>
+	
 </main>
-	<fotter class="fotter">
+
+	<footer class="fotter">
 		<div class="wreapper__container">
 			<div class="footer__body">
 				<div class="logo">
@@ -287,10 +292,41 @@
 				</div>
 			</div>
 		</div>
-	</fotter>
+	</footer>
 
-	<script type="javascript/text" src="js/jquery.min.js"></script>
-	<script type="javascript/text" src="js/img.img-svg.js"></script>
+	<div class="overlay" id="overlay">
+		<div class="wrap">
+			<form class="form" action="" method="post">
+				<div class="form__lables">
+					<div class="lable">*Имя:</div>
+						<input class="input" name="name" class="input" type="text" required>
+				</div>
+				<div class="form__lables">
+					<div class="lable">*E-mail:</div>
+						<input class="input" name="email" class="input" type="text" required>
+				</div>
+				<div class="form__lables">		
+					<div class="lable">*Телефон:</div>
+						<input class="input" name="tel"  type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+				</div>
+				<div class="form__lables">		
+					<div class="lable">*Дата рождения:</div>
+						<input class="input" name="date"  class="input" type="data" min="1800-01-01" max="2021-12-31" required>
+		      	</div>
+		      	<div class="form__lables">
+						<input name="mail_submit" type="submit" value="Сделать заказ">
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/reviews.js" type="text/javascript"></script>
+	<script src='js/img.img-svg.js' type='text/javacript'></script>
+	<script src='js/form.js' type='text/javascript'></script>
 
 </body>
+	
 </html>

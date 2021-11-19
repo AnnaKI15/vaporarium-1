@@ -1,0 +1,53 @@
+div.overlay {
+   
+   background-image:url(images/white.png);
+   width:600px;
+   height:200px;     
+   display:none;
+   padding:55px;
+}
+div.overlay div.close {
+   
+   background-image:url(images/close.png);
+   position:absolute;
+   right:5px;
+   top:5px;
+   cursor:pointer;
+   height:35px;
+   width:35px;
+}
+
+#overlay {
+   
+   background-image:url(images/transparent.png);
+   color:#efefef;
+}
+#overgoop {
+   
+   background-image:url(images/transparent.png);
+   color:#efefef;
+}
+div.wrap {
+   
+   height:1005;
+   overflow-y:auto;
+}
+.lable {
+                
+   clear:left; 
+   display:block;
+   padding-right:4px; 
+   font-size: 18px;
+   font-family: "Times New Roman", Times, serif;
+}
+.input {
+   
+   background-color:#F0F0F0;
+   border: 0px;
+   font-size: 18px;
+   font-weight:bold;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #1C5455;
+}
+
+
