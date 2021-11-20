@@ -18,7 +18,7 @@
 	z-index: 1;
 	object-fit: cover;
 	top: 7%;
-    left: -13%;
+    left: -35%;
 }
 .reviews__rectangle-big{
 	position: absolute;
@@ -47,7 +47,7 @@
 }
 
 .column{
-	flex: 1 1 auto;
+	flex: 1 1 50%;
 }
 .reviews__column {
 	margin: 16px 8px 0;
@@ -66,6 +66,7 @@
 	display: flex;
 	justify-content: center;
 }
+
 #reviews__row-js{
 	display: none;
 }

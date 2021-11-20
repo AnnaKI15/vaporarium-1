@@ -1,14 +1,14 @@
 div.overlay {
    
-   background-image:url(images/white.png);
-   width:600px;
-   height:200px;     
-   display:none;
-   padding:55px;
+   background-image:url(../img/form/white.png);   
+   height: 400px;
+   width: 500px;  
+   display: none;
+   padding: 55px;
 }
 div.overlay div.close {
    
-   background-image:url(images/close.png);
+   background-image:url(../img/form/close.png);
    position:absolute;
    right:5px;
    top:5px;
@@ -19,35 +19,53 @@ div.overlay div.close {
 
 #overlay {
    
-   background-image:url(images/transparent.png);
-   color:#efefef;
+   background-image:url(../img/form/transparent.png);
+   color: #efefef;
 }
 #overgoop {
    
-   background-image:url(images/transparent.png);
-   color:#efefef;
+   background-image:url(../img/form/transparent.png);
+   color: #efefef;
 }
 div.wrap {
    
-   height:1005;
+   height:100%;
    overflow-y:auto;
 }
+.form{
+   margin-top: 25px;
+   position: relative;
+}
+.form__lables{
+ display: flex;
+}
 .lable {
-                
+   flex-basis: 27%;      
    clear:left; 
    display:block;
    padding-right:4px; 
    font-size: 18px;
-   font-family: "Times New Roman", Times, serif;
+   font-family: "Montserrat", sans-serif;
 }
 .input {
-   
-   background-color:#F0F0F0;
+   margin:10px;
+   background-color: #F0F0F0;
    border: 0px;
    font-size: 18px;
-   font-weight:bold;
-   font-family: Arial, Helvetica, sans-serif;
-   color: #1C5455;
+   font-weight: bold;
+   font-family: "Montserrat", sans-serif;
+   color: #fff;
+   flex-basis: auto;
 }
+
+
+.form__btn{
+   margin: 15px;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, 0);
+}
+
+
 
 
